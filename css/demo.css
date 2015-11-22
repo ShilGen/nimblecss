@@ -1,0 +1,44 @@
+body{
+	font-family:  Verdana,  Arial,  Helvetica,  sans-serif;
+	font-size: 16px;
+}
+.block{
+	background-color: #999999;
+	color: white;
+	font-size: 0.8em;
+	text-align: center;
+	border: 1px solid white;
+}
+.demo_example {
+	background-color: #fff;
+	color: black;
+	font-size: 0.8em;
+	text-align: left;
+	line-height: 4em;
+}
+@media only screen and (min-width : 320px) {
+	.block{
+		line-height: 1.2em;
+	}
+}
+@media only screen and (min-width : 480px) {
+	.block{
+		line-height: 1.5em;
+	}
+}
+@media only screen and (min-width : 768px) {
+	.block{
+		line-height: 2em;
+	}
+}
+@media only screen and (min-width : 992px) {
+	.block{
+		padding: 0 5px;
+		line-height: 2em;
+	}
+}
+@media only screen and (min-width : 1200px) {
+	.block{
+		line-height: 2em;
+	}
+}

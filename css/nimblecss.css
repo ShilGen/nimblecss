@@ -1,0 +1,78 @@
+html{
+	box-sizing:  border-box;
+}
+*,  *:before,  *:after  {
+	box-sizing:  inherit;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+.block{
+	float: left;
+	display: inline-block;
+}
+@media only screen and (min-width : 320px) { /* Custom, iPhone Retina */
+	.row{
+		width: 98%;
+		margin: 1% auto;
+	}
+	.row:before, 
+	.row:after{
+		content:"";
+		display:table;
+	}
+	.row:after{
+		clear:both;
+	}
+	.col-1, .col-2, .col-3, .col-4{
+		width: calc(100% / 4 * 4);
+	}
+}
+@media only screen and (min-width : 480px) {/* Extra Small Devices, Phones */ 
+	.row{
+		width: 96%;
+	}
+	
+}
+@media only screen and (min-width : 768px) {/* Small Devices, Tablets */
+	.row{
+		width: 94%;
+	}
+	.col-1{
+		width: 50%;
+		margin-left: 25%;
+	}
+	.col-2{
+		width: 50%;
+	}
+	.col-3{
+		width: 100%;
+	}
+	.col-4{
+		width: 100%;
+	 }
+}
+@media only screen and (min-width : 992px) {/* Medium Devices, Desktops */
+	.row{
+		width: 90%;
+	}
+	.col-1{
+		width: calc(100% / 4 * 1);
+		margin-left: 0;
+	}
+	.col-2{
+		width: calc(100% / 4 * 2);
+	}
+	.col-3{
+		width: calc(100% / 4 * 3);
+	}
+	.col-4{
+		width: 100%;
+	 }
+}
+@media only screen and (min-width : 1200px) {/* Large Devices, Wide Screens */
+	.row{
+		width: 80%;
+	}
+}
