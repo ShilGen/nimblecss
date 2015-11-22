@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="description" content="NimbleCSS : Simple modular grid. 4 column layout,  first-mobile, pure css, no-js">
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-    <title>NimbleCSS  - Simple modular grid (CSS)</title>
+    <title>NimbleCSS  - Simple grid system (CSS)</title>
   </head>
   <body>
     <!-- HEADER -->
@@ -13,7 +13,7 @@
         <header class="inner">
           <a id="forkme_banner" href="https://github.com/ShilGen/nimblecss">Fork me on GitHub</a>
           <h1 id="project_title">NimbleCSS</h1>
-          <h2 id="project_tagline">Simple modular grid</h2>
+          <h2 id="project_tagline">Simple grid system</h2>
             <section id="downloads">
               <a class="zip_download_link" href="https://github.com/ShilGen/nimblecss/zipball/master">Download this project as a .zip file</a>
               <a class="tar_download_link" href="https://github.com/ShilGen/nimblecss/tarball/master">Download this project as a tar.gz file</a>
@@ -24,29 +24,88 @@
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
         <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to NimbleCSS.</h3>
+<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to NimbleCSS</h3>
 
 <p>In practice, very often required to build the project from the centering of the base layer, and for the location of the content to use the grid. For tasks that just use a grid of four columns, I propose to use my  NimbleCSS.</p>
+</section>
+<div class="row">
+  <div class="block col-4 demo_example"><h3>
+<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Advantages</h3>
 
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+<p>
+  <ul>
+    <li>4 column layout,</li>
+    <li>first-mobile,</li>
+    <li>pure css,</li>
+    <li>no-js</li>
+  </ul>
+</p>
+</div>
+</div>
 
-<p>We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.</p>
+<div class="row">
+  <div class="block col-4 demo_example">
+    <h3>Description</h3>
+    <p>You can change the width of your browser, in order to clearly see the NimbleCSS in action.
+    По умолчанию, ширина базового слоя на desctop-версии равна 80%.</p>
+</div>
+</div>
 
-<h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span class="octicon octicon-link"></span></a>Creating pages manually</h3>
+<div class="row">
+  <div class="block col-4 demo_example">
+    <h3>How it use</h3>
+    <p>Shape the structure you need, depending on the job in progress:
+    <pre><code>
+&lt;div class="row"&gt;
+  &lt;div class="block col-4 demo_example"&gt;&lt;h3&gt;Examples&lt;/h3&gt;Example of implementation №1:&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row"&gt;
+  &lt;div class="block col-4"&gt;This row is always holds 4 columns, independently of the width of the screen width.&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row"&gt;
+  &lt;div class="block col-4 demo_example"&gt;Example of implementation №2:&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row"&gt;
+  &lt;div class="block col-2"&gt;The two columns on the left...&lt;/div&gt;
+  &lt;div class="block col-2"&gt;The two columns on the right...&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row"&gt;
+  &lt;div class="block col-4 demo_example"&gt;Example of implementation №3:&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row"&gt;
+  &lt;div class="block col-1"&gt;1 column to the left&lt;/div&gt;
+  &lt;div class="block col-3"&gt;3 column to the right&lt;/div&gt;
+&lt;/div&gt;
+    
+    </code></pre>
+    Add the contents of the file <a href="https://github.com/ShilGen/nimblecss/blob/master/css/nimblecss.css">nimblecss.css</a> in your stylesheet file.
+    </p>
+  </div>
+</div>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-<p>Having trouble with NimbleCSS? It is unlikely. </p>
-      </section>
+<div class="row">
+  <div class="block col-4 demo_example"><h3>Examples</h3>Example of implementation №1:</div>
+</div>
+<div class="row">
+  <div class="block col-4">This row is always holds 4 columns, independently of the width of the screen width.</div>
+</div>
+<div class="row">
+  <div class="block col-4 demo_example">Example of implementation №2:</div>
+</div>
+<div class="row">
+  <div class="block col-2">The two columns on the left, when the screen width is less than 480px - occupies  all width of the screen</div>
+  <div class="block col-2">The two columns on the right, when the screen width is less than 480px - occupies all width of the screen</div>
+</div>
+<div class="row">
+  <div class="block col-4 demo_example">Example of implementation №3:</div>
+</div>
+<div class="row">
+  <div class="block col-1">1 column to the left</div>
+  <div class="block col-3">3 column to the right</div>
+</div>
+<div class="row">
+  <div class="block col-4 demo_example"><h3>Contact with me</h3><p>Having trouble with NimbleCSS? It is unlikely. </p></div>
+</div>
     </div>
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
